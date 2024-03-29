@@ -13,6 +13,18 @@ module.exports = {
       colors: {
         "darkGreen": "#136C50",
         "darkBlue": "#233065",
+        "green1": "#6A994E",
+        "green2": "#20B486",
+        "purple1": "#233065",
+        "purple2": "#6D3AE9",
+        "orange1": "#FC7A1E",
+        "orange2": "#EE455A",
+      },
+      width: {
+        "84": '84px',
+      },
+      height: {
+        "84": '84px',
       }
     },
   },
