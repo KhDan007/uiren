@@ -14,6 +14,8 @@ module.exports = {
         "darkGreen": "#136C50",
         "darkBlue": "#233065",
         "blue1": "#85A0FE",
+        "blue2": "#2A4ECA",
+        "lightBlue": "#F0F7FF",
         "green1": "#6A994E",
         "green2": "#20B486",
         "green3": "#7ECE89",
@@ -23,6 +25,8 @@ module.exports = {
         "purple2": "#6D3AE9",
         "orange1": "#FC7A1E",
         "orange2": "#EE455A",
+        "almostWhite": "#FFFAF5",
+        "lightPink": "#FFEEF0",
       },
       width: {
         "84": '84px',
