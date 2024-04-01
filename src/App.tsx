@@ -4,6 +4,7 @@ import { Intro } from "./components/Intro";
 import { Mission } from "./components/Mission";
 import { Navbar } from "./components/Navbar";
 import { Special } from "./components/Special";
+import { Subjects } from "./components/Subjects";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Data />
         <Mission />
         <Special />
+        <Subjects />
       </div>
     </div>
   );

@@ -27,6 +27,7 @@ module.exports = {
         "orange2": "#EE455A",
         "almostWhite": "#FFFAF5",
         "lightPink": "#FFEEF0",
+        "gray": "#E7E9EB",
       },
       width: {
         "84": '84px',
