@@ -3,6 +3,7 @@ import { Data } from "./components/Data";
 import { Intro } from "./components/Intro";
 import { Mission } from "./components/Mission";
 import { Navbar } from "./components/Navbar";
+import { Process } from "./components/Process";
 import { Special } from "./components/Special";
 import { Subjects } from "./components/Subjects";
 
@@ -16,6 +17,7 @@ function App() {
         <Mission />
         <Special />
         <Subjects />
+        <Process />
       </div>
     </div>
   );
