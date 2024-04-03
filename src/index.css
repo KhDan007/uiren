@@ -92,3 +92,32 @@
     cursor: pointer;
   }
 }
+
+.special__word {
+  position: relative;
+}
+
+.special__word::after {
+  position: absolute;
+  bottom: -30px;
+  right: -10px;
+  content: "";
+  width: 295px;
+  height: 27px;
+  background-image: url("./img/icons/special/Vector 6.svg");
+}
+
+@media screen and (max-width: 1020px) {
+  .special__word::after {
+    scale: 0.8;
+    translate: 20px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .special__word::after {
+    scale: 0.6;
+    translate: 50px 0;
+  }
+}
+

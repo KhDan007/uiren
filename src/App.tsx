@@ -5,6 +5,7 @@ import { Intro } from "./components/Intro";
 import { Mission } from "./components/Mission";
 import { Navbar } from "./components/Navbar";
 import { Process } from "./components/Process";
+import { Reviews } from "./components/Reviews";
 import { Special } from "./components/Special";
 import { Subjects } from "./components/Subjects";
 
@@ -20,6 +21,7 @@ function App() {
         <Subjects />
         <Process />
         <FAQ />
+        <Reviews />
       </div>
     </div>
   );

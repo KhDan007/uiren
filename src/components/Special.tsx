@@ -8,7 +8,7 @@ export const Special = () => {
     <section className="pt-24 pb-16 px-4 ">
       <div className="container mx-auto font-PublicSans">
         <h2 className="special__title text-3xl md:text-4xl lg:text-5xl font-semibold text-shadow mb-12 lg:mb-14">
-          Что делает UIREN <span className=" text-blue2">особенным</span>?
+          Что делает UIREN <span className="text-blue2 special__word">особенным</span>?
         </h2>
         <div className="md:flex items-center">
           <div className="special__column md:w-2/3 lg:flex items-center mb-7 md:mb-0">
