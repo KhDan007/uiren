@@ -1,5 +1,6 @@
 import "./App.css";
 import { Data } from "./components/Data";
+import { FAQ } from "./components/FAQ";
 import { Intro } from "./components/Intro";
 import { Mission } from "./components/Mission";
 import { Navbar } from "./components/Navbar";
@@ -18,6 +19,7 @@ function App() {
         <Special />
         <Subjects />
         <Process />
+        <FAQ />
       </div>
     </div>
   );

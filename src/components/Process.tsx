@@ -11,7 +11,9 @@ export const Process = () => {
   return (
     <section className="process bg-gradient-to-b from-lightPink2 via-white to-white">
       <div className="container mx-auto py-10">
-        <h2 className="text-6xl pl-10 font-bold mb-12 xl:mb-20">Процесс обучения</h2>
+        <h2 className="text-5xl pl-10 font-bold mb-12 xl:mb-20">
+          Процесс обучения
+        </h2>
 
         <Swiper
           modules={[Navigation, Pagination]}
@@ -27,34 +29,45 @@ export const Process = () => {
           }}
           className=""
         >
-          <SwiperSlide className="px-14 pb-12">
-            <div className="bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
+          <SwiperSlide className="px-14 pb-12 ">
+            {/* <div className="blur1 bg-orange1 z-0 h-44 w-44 absolute left-1/2  top-1/3  "></div> */}
+            <div className="relative z-10 bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image1} alt="" />
-              <div className="text-black text-xl text-center pt-3">Уроки английского языка</div>
+              <div className="text-black text-xl text-center pt-3">
+                Уроки английского языка
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="px-14 pb-12">
-            <div className="bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
+            <div className="slide bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image1} alt="" />
-              <div className="text-black text-xl text-center pt-3">Уроки математики</div>
+              <div className="text-black text-xl text-center pt-3">
+                Уроки математики
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="px-14 pb-12">
-            <div className="bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
+            <div className="slide bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image1} alt="" />
-              <div className="text-black text-xl text-center pt-3">Уроки ICT</div>
+              <div className="text-black text-xl text-center pt-3">
+                Уроки ICT
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="px-14 pb-12">
-            <div className="bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
+            <div className="slide bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image1} alt="" />
-              <div className="text-black text-xl text-center pt-3">Уроки логики</div>
+              <div className="text-black text-xl text-center pt-3">
+                Уроки логики
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide className="px-14 pb-12">
-            <div className="bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
+            <div className="slide bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image1} alt="" />
-              <div className="text-black text-xl text-center pt-3">Уроки шахмат</div>
+              <div className="text-black text-xl text-center pt-3">
+                Уроки шахмат
+              </div>
             </div>
           </SwiperSlide>
         </Swiper>

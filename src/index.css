@@ -2,29 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Preahvihear&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,600;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Preahvihear&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,600;1,600&display=swap");
 
-@import "swiper/css"; 
+@import "swiper/css";
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
 
 .text-shadow {
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .box-shadow {
-  box-shadow: 8px 13px 10.5px rgba(0, 0, 0, 0.25)
+  box-shadow: 8px 13px 10.5px rgba(0, 0, 0, 0.25);
 }
 
 .box-shadow2 {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .process .swiper-button-next,
 .process .swiper-button-prev {
   color: white;
-  background-color: #FFC27A;
+  background-color: #ffc27a;
   transform: scale(0.5);
   width: 88px;
   height: 88px;
@@ -45,9 +45,40 @@
 }
 
 .process .swiper-pagination-bullet {
-  background-color: #CFD3D6;
+  background-color: #b5b8b9;
 }
 
 .process .swiper-pagination-bullet-active {
-  background-color: #21212F;
+  background-color: #21212f;
+}
+
+.faq .swiper-button-next,
+.faq .swiper-button-prev {
+  color: #363A3D;
+  background-color: #FFFFFF;
+  transform: scale(0.4);
+  width: 88px;
+  height: 88px;
+  border-radius: 12px;
+}
+
+.faq .swiper-button-next {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  translate: 0 -50%;
+}
+.faq .swiper-button-prev {
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  translate: 0 -50%;
+}
+
+.faq .swiper-pagination-bullet {
+  background-color: #b5b8b9;
+}
+
+.faq .swiper-pagination-bullet-active {
+  background-color: #20B486;
 }
