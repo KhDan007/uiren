@@ -54,12 +54,14 @@
 
 .faq .swiper-button-next,
 .faq .swiper-button-prev {
-  color: #363A3D;
-  background-color: #FFFFFF;
+  color: #363a3d;
+  background-color: #ffffff;
   transform: scale(0.4);
   width: 88px;
   height: 88px;
   border-radius: 12px;
+  opacity: 0;
+  cursor: auto;
 }
 
 .faq .swiper-button-next {
@@ -80,5 +82,13 @@
 }
 
 .faq .swiper-pagination-bullet-active {
-  background-color: #20B486;
+  background-color: #20b486;
+}
+
+@media screen and (min-width: 640px) {
+  .faq .swiper-button-next,
+  .faq .swiper-button-prev {
+    opacity: 1;
+    cursor: pointer;
+  }
 }
