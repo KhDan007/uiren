@@ -13,7 +13,7 @@ import { Subjects } from "./components/Subjects";
 function App() {
   return (
     <div className="App">
-      <div className="wrapper">
+      <div className="wrapper pt-9">
         <Navbar />
         <Intro />
         <Data />
