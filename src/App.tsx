@@ -1,6 +1,7 @@
 import "./App.css";
 import { Data } from "./components/Data";
 import { FAQ } from "./components/FAQ";
+import { Footer } from "./components/Footer";
 import { Intro } from "./components/Intro";
 import { Mission } from "./components/Mission";
 import { Navbar } from "./components/Navbar";
@@ -22,6 +23,7 @@ function App() {
         <Process />
         <FAQ />
         <Reviews />
+        <Footer />
       </div>
     </div>
   );

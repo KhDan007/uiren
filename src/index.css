@@ -121,3 +121,17 @@
   }
 }
 
+.footer__text {
+  position: relative;
+}
+
+.footer__text::after {
+  content: "";
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+  width: 80px;
+  height: 3px;
+  background-color: #FC7A1E;
+}
+
