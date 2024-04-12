@@ -1,3 +1,4 @@
+import { Button } from "./Button";
 import { Data } from "./Data";
 import { FAQ } from "./FAQ";
 import { Footer } from "./Footer";
@@ -18,6 +19,7 @@ export const Ru = () => {
       <Data />
       <Mission />
       <Special />
+      <Button />
       <Subjects />
       <Process />
       <FAQ />
