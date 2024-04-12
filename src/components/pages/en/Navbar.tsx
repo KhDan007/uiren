@@ -106,7 +106,7 @@ export const Navbar = () => {
               <Link to="/ru">Русский</Link>
             </div>
             <div className="dropdown__child">
-              <Link to="/en">English</Link>
+              <Link to="/kz">Қазақ</Link>
             </div>
           </div>
         </div>

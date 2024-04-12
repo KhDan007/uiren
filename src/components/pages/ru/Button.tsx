@@ -1,7 +1,7 @@
 export const Button = () => {
   return (
     <section className="button pb-8 px-3">
-      <h1 className="text-center font-semibold pb-8 text-2xl md:text-3xl lg:text-4xl">Присоеденияйтесь!</h1>
+      <h1 className="text-center font-semibold pb-8 text-2xl md:text-3xl lg:text-4xl">Присоеденяйтесь!</h1>
       <div className="flex text-lg md:text-xl font-PublicSans mx-auto max-w-lg justify-between">
         <div className="button__tutor cursor-pointer text-slate-800 px-6 py-4 rounded-3xl mr-3 transition hover:bg-slate-600 hover:text-white">
           Стать преподователем

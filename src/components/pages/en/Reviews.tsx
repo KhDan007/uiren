@@ -21,9 +21,11 @@ export const Reviews = () => {
               </div>
             </div>
             <p className=" max-w-96 ">
-              Many thank to the UIREN team! Thanks to the lessons you taught, my
-              child's motivation and academic performance have significantly
-              improved!
+              I want to express my immense gratitude to the UIREN volunteers for
+              this social project. My daughter was able to improve her 4th grade
+              math skills in a short time and noticeably improved her grades,
+              thanks to the teacher who was able to quickly find common language
+              and help with some gaps in her knowledge.
             </p>
           </div>
           <div className="reviews__elem bg-white p-8 md:mr-4 rounded-3xl mb-5 md:mb-0">
@@ -36,9 +38,14 @@ export const Reviews = () => {
               </div>
             </div>
             <p className=" max-w-96 ">
-              The level of my child's language skills has advanced considerably.
-              The lessons were very interesting for her, especially the
-              interactive games.
+              Our teacher was able to find the right approach for my child: he
+              skillfully guided, patiently explained, and addressed the “gaps”
+              in knowledge. Within a short period of time, vocabulary,
+              understanding of the material, and pronunciation of words
+              noticeably improved. I also liked testing knowledge in the form of
+              a game in the Kahoot app. Thank you very much for organizing these
+              lessons for children, as senior students are sometimes better at
+              explaining information than parents.
             </p>
           </div>
           <div className="reviews__elem bg-white p-8 rounded-3xl ">
@@ -51,11 +58,12 @@ export const Reviews = () => {
               </div>
             </div>
             <p className=" max-w-96 ">
-              I want to say many thanks to the project "UIREN"! A very great
-              project. Thanks to tutor, my son was interested in studying.
-              Teacher quickly found the child's language and conducted the
-              lesson very interestingly. We look forward to the second stage of
-              this project!!!
+              I would like to say a big thank you to the UIREN project! A
+              wonderful project. Thanks to the teacher, my child began to learn
+              the subject with passion. Now his grades are no lower than 9-10
+              points. The teacher quickly found a common language with my child
+              and the lessons were very interesting. Thank you very much! We are
+              looking forward to the second phase of this project!
             </p>
           </div>
         </div>
