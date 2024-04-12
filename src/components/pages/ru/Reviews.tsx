@@ -2,7 +2,7 @@ import image1 from "../../../img/icons/reviews/orange_quotes.svg";
 
 export const Reviews = () => {
   return (
-    <section className="bg-lightPurple">
+    <section id="reviews" className="bg-lightPurple">
       <div className="container px-4 py-24 mx-auto">
         <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-orange1 text-shadow">
           Отзывы

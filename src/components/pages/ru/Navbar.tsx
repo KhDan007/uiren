@@ -28,8 +28,8 @@ export const Navbar = () => {
 
   return (
     <nav className="z-50 fixed top-0 left-0 w-full p-5 pr-0 bg-white flex justify-between items-center">
-      <div className="text-shadow ml-auto pl-12 md:pl-0 md:ml-0 font-PtSerif text-darkGreen text-4xl lg:text-5xl font-bold italic lg:pr-3">
-        UIREN
+      <div className="text-shadow mx-auto pl-12 md:pl-0 md:ml-0 font-PtSerif text-darkGreen text-4xl lg:text-5xl font-bold italic lg:pr-3">
+        Ü<span className="text-orange1">İREN</span>
       </div>
       <Menu
         className="block text-shadow lg:hidden"
@@ -46,10 +46,10 @@ export const Navbar = () => {
         <a href="">Контакты</a>
       </Menu>
 
-      <ul className="hidden text-center text-shadow nav_links text-base lg:text-xl md:flex md:items-center">
+      <ul className="mx-auto justify-between hidden text-center text-shadow nav_links text-base lg:text-xl md:flex md:items-center">
         <li className=" mx-3">
           <a
-            href="#"
+            href="#intro"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
             О нас
@@ -57,7 +57,7 @@ export const Navbar = () => {
         </li>
         <li className=" mx-3">
           <a
-            href="#"
+            href="#subjects"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
             Курсы
@@ -65,7 +65,7 @@ export const Navbar = () => {
         </li>
         <li className=" mx-3">
           <a
-            href="#"
+            href="#process"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
             Процесс Обучения
@@ -73,7 +73,7 @@ export const Navbar = () => {
         </li>
         <li className=" mx-3">
           <a
-            href="#"
+            href="#special"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
             Вопросы
@@ -81,7 +81,7 @@ export const Navbar = () => {
         </li>
         <li className=" mx-3">
           <a
-            href="#"
+            href="#reviews"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
             Отзывы
@@ -89,7 +89,7 @@ export const Navbar = () => {
         </li>
         <li className=" mx-3">
           <a
-            href="#"
+            href="#footer"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
             Контакты
@@ -97,7 +97,7 @@ export const Navbar = () => {
         </li>
       </ul>
 
-      <div className="ml-auto flex items-center justify-end">
+      <div className="md:ml-auto flex items-center justify-end">
         <div className="dropdown">
           <div onClick={handleClick} className={isDropped2}>
             <img src={lang} alt="" />

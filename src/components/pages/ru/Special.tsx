@@ -5,7 +5,7 @@ import icon5 from "../../../img/icons/special/5.svg";
 
 export const Special = () => {
   return (
-    <section className="pt-24 pb-16 px-4 ">
+    <section id="special" className="pt-24 pb-16 px-4 ">
       <div className="container mx-auto font-PublicSans">
         <h2 className="special__title text-3xl md:text-4xl lg:text-5xl font-semibold text-shadow mb-12 lg:mb-14">
           Что делает UIREN <span className="text-blue2 special__word">особенным</span>?

@@ -9,6 +9,10 @@
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
 
+html {
+  scroll-behavior: smooth;
+}
+
 .text-shadow {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

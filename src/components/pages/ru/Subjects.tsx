@@ -10,7 +10,7 @@ import icon9 from "../../../img/icons/subjects/9.svg";
 
 export const Subjects = () => {
   return (
-    <section className="bg-gray py-12 md:py-16 lg:py-24">
+    <section id="subjects" className="bg-gray py-12 md:py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <h2 className="subjects__title text-shadow font-semibold mb-4 text-5xl">
           Наши предметы

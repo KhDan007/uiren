@@ -9,7 +9,7 @@ import image1 from "../../../img/process/example.jpg";
 
 export const Process = () => {
   return (
-    <section className="process bg-gradient-to-b from-lightPink2 via-white to-white">
+    <section id="process" className="process bg-gradient-to-b from-lightPink2 via-white to-white">
       <div className="container mx-auto py-10">
         <h2 className="text-5xl pl-10 font-bold mb-12 xl:mb-20">
           Процесс обучения

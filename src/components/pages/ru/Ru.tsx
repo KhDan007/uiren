@@ -11,7 +11,7 @@ import { Subjects } from "./Subjects";
 
 export const Ru = () => {
   return (
-    <>
+    <div className="pt-7">
       <Navbar />
       
       <Intro />
@@ -24,6 +24,6 @@ export const Ru = () => {
       <Reviews />
 
       <Footer />
-    </>
+    </div>
   );
 };

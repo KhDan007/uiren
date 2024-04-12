@@ -2,7 +2,7 @@ import logo from "../../../img/icons/logo.png";
 
 export const Footer = () => {
   return (
-    <footer className="flex justify-around px-8 lg:px-12 xl:px-16 py-5 items-center">
+    <footer id="footer" className="flex justify-around px-8 lg:px-12 xl:px-16 py-5 items-center">
       <div className="footer__logo mr-4">
         <img src={logo} alt="" />
       </div>
