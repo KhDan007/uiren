@@ -10,12 +10,16 @@ import image2 from "../../../img/process/math.png";
 import image3 from "../../../img/process/arts.png";
 import image4 from "../../../img/process/logic.jpg";
 import image5 from "../../../img/process/kaz lang.png";
+
 export const Process = () => {
   return (
-    <section id="process" className="process bg-gradient-to-b from-lightPink2 via-white to-white">
+    <section
+      id="process"
+      className="process bg-gradient-to-b from-lightPink2 via-white to-white"
+    >
       <div className="container mx-auto py-10">
         <h2 className="text-5xl pl-10 font-bold mb-12 xl:mb-20">
-          Процесс обучения
+          Оқыту барысы
         </h2>
 
         <Swiper
@@ -37,7 +41,7 @@ export const Process = () => {
             <div className="relative z-10 bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image1} alt="" />
               <div className="text-black text-xl text-center pt-3">
-                Уроки английского
+                Ағылшын тілі сабақтары
               </div>
             </div>
           </SwiperSlide>
@@ -45,7 +49,7 @@ export const Process = () => {
             <div className="slide bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image2} alt="" />
               <div className="text-black text-xl text-center pt-3">
-                Уроки математики
+                Математика сабақтары
               </div>
             </div>
           </SwiperSlide>
@@ -53,7 +57,7 @@ export const Process = () => {
             <div className="slide bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image3} alt="" />
               <div className="text-black text-xl text-center pt-3">
-                Уроки рисования
+                Бейнелеу өнері
               </div>
             </div>
           </SwiperSlide>
@@ -61,7 +65,7 @@ export const Process = () => {
             <div className="slide bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image4} alt="" />
               <div className="text-black text-xl text-center pt-3">
-                Уроки логики
+                Логика сабақтары
               </div>
             </div>
           </SwiperSlide>
@@ -69,7 +73,7 @@ export const Process = () => {
             <div className="slide bg-white box-shadow2 h-full rounded-3xl mx-auto flex flex-col px-5 pt-4 pb-3 justify-center text-white text-3xl">
               <img src={image5} alt="" />
               <div className="text-black text-xl text-center pt-3">
-                Уроки казахского
+                Қазақ тілі сабақтары
               </div>
             </div>
           </SwiperSlide>

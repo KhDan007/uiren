@@ -37,12 +37,12 @@ export const Navbar = () => {
         right // Optional: open menu from the right
         width={"250px"} // Set menu width
       >
-        <a href="">О нас</a>
-        <a href="">Курсы</a>
-        <a href="">Процесс Обучения</a>
-        <a href="">Вопросы</a>
-        <a href="">Отзывы</a>
-        <a href="">Контакты</a>
+        <a href="">Біз туралы</a>
+        <a href="">Курстар</a>
+        <a href="">Оқыту процессі</a>
+        <a href="">Сұрақтар</a>
+        <a href="">Пікірлер</a>
+        <a href="">Байланысу</a>
       </Menu>
 
       <ul className="mx-auto justify-between hidden text-center text-shadow nav_links text-base lg:text-xl md:flex md:items-center">
@@ -51,7 +51,7 @@ export const Navbar = () => {
             href="#intro"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
-            О нас
+            Біз туралы
           </a>
         </li>
         <li className=" mx-3">
@@ -59,7 +59,7 @@ export const Navbar = () => {
             href="#subjects"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
-            Курсы
+            Курстар
           </a>
         </li>
         <li className=" mx-3">
@@ -67,7 +67,7 @@ export const Navbar = () => {
             href="#process"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
-            Процесс Обучения
+            Оқыту процессі
           </a>
         </li>
         <li className=" mx-3">
@@ -75,7 +75,7 @@ export const Navbar = () => {
             href="#special"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
-            Вопросы
+            Сұрақтар
           </a>
         </li>
         <li className=" mx-3">
@@ -83,7 +83,7 @@ export const Navbar = () => {
             href="#reviews"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
-            Отзывы
+            Пікірлер
           </a>
         </li>
         <li className=" mx-3">
@@ -91,7 +91,7 @@ export const Navbar = () => {
             href="#footer"
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
           >
-            Контакты
+            Байланысу
           </a>
         </li>
       </ul>
@@ -103,7 +103,7 @@ export const Navbar = () => {
           </div>
           <div className={isDropped}>
             <div className="dropdown__child">
-              <Link to="/kz">Қазақ</Link>
+              <Link to="/ru">Русский</Link>
             </div>
             <div className="dropdown__child">
               <Link to="/en">English</Link>
