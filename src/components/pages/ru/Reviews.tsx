@@ -1,4 +1,4 @@
-import image1 from "../img/icons/reviews/orange_quotes.svg";
+import image1 from "../../../img/icons/reviews/orange_quotes.svg";
 
 export const Reviews = () => {
   return (

@@ -1,12 +1,12 @@
-import icon1 from "../img/icons/subjects/1.svg";
-import icon2 from "../img/icons/subjects/2.svg";
-import icon3 from "../img/icons/subjects/3.svg";
-import icon4 from "../img/icons/subjects/4.svg";
-import icon5 from "../img/icons/subjects/5.svg";
-import icon6 from "../img/icons/subjects/6.svg";
-import icon7 from "../img/icons/subjects/7.svg";
-import icon8 from "../img/icons/subjects/8.svg";
-import icon9 from "../img/icons/subjects/9.svg";
+import icon1 from "../../../img/icons/subjects/1.svg";
+import icon2 from "../../../img/icons/subjects/2.svg";
+import icon3 from "../../../img/icons/subjects/3.svg";
+import icon4 from "../../../img/icons/subjects/4.svg";
+import icon5 from "../../../img/icons/subjects/5.svg";
+import icon6 from "../../../img/icons/subjects/6.svg";
+import icon7 from "../../../img/icons/subjects/7.svg";
+import icon8 from "../../../img/icons/subjects/8.svg";
+import icon9 from "../../../img/icons/subjects/9.svg";
 
 export const Subjects = () => {
   return (

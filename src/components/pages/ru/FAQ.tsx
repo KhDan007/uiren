@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import quote from "../img/icons/faq/quote.svg";
+import quote from "../../../img/icons/faq/quote.svg";
 
 export const FAQ = () => {
   return (

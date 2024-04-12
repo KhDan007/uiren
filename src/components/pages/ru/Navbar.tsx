@@ -1,9 +1,10 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import nis from "../img/icons/nis.png";
+import nis from "../../../img/icons/nis.png";
+import lang from "../../../img/icons/language.png";
 
+import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import { useState } from "react";
+import { Dropdown, DropdownItem, DropdownMenu } from "semantic-ui-react";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,58 +13,26 @@ export const Navbar = () => {
     setIsOpen(state.isOpen);
   };
 
-  var styles = {
-    bmBurgerButton: {
-      position: "fixed",
-      width: "36px",
-      height: "30px",
-      left: "36px",
-      top: "36px",
-    },
-    bmBurgerBars: {
-      background: "#373a47",
-    },
-    bmBurgerBarsHover: {
-      background: "#a90000",
-    },
-    bmCrossButton: {
-      height: "24px",
-      width: "24px",
-    },
-    bmCross: {
-      background: "#bdc3c7",
-    },
-    bmMenuWrap: {
-      position: "fixed",
-      height: "100%",
-    },
-    bmMenu: {
-      background: "#373a47",
-      padding: "2.5em 1.5em 0",
-      fontSize: "1.15em",
-    },
-    bmMorphShape: {
-      fill: "#373a47",
-    },
-    bmItemList: {
-      color: "#b8b7ad",
-      padding: "0.8em",
-    },
-    bmItem: {
-      display: "inline-block",
-    },
-    bmOverlay: {
-      background: "rgba(0, 0, 0, 0.3)",
-    },
-  };
+  const [isDropped, setIsDropped] = useState("no-drop");
+  const [isDropped2, setIsDropped2] = useState("no-drop2");
+
+  function handleClick() {
+    if (isDropped == "no-drop") {
+      setIsDropped("drop");
+      setIsDropped2("drop2");
+    } else {
+      setIsDropped("no-drop");
+      setIsDropped2("no-drop2");
+    }
+  }
 
   return (
-    <nav className="z-50 fixed top-0 left-0 w-full text-shadow p-5 pr-0 bg-white flex justify-between items-center">
-      <div className="ml-auto pl-8 md:pl-0 md:ml-0 font-PtSerif text-darkGreen text-4xl lg:text-5xl font-bold italic lg:pr-3">
+    <nav className="z-50 fixed top-0 left-0 w-full p-5 pr-0 bg-white flex justify-between items-center">
+      <div className="text-shadow ml-auto pl-12 md:pl-0 md:ml-0 font-PtSerif text-darkGreen text-4xl lg:text-5xl font-bold italic lg:pr-3">
         UIREN
       </div>
       <Menu
-        className="block lg:hidden"
+        className="block text-shadow lg:hidden"
         isOpen={isOpen}
         onStateChange={handleStateChange}
         right // Optional: open menu from the right
@@ -77,7 +46,7 @@ export const Navbar = () => {
         <a href="">Контакты</a>
       </Menu>
 
-      <ul className="hidden nav_links text-base lg:text-xl md:flex md:items-center">
+      <ul className="hidden text-center text-shadow nav_links text-base lg:text-xl md:flex md:items-center">
         <li className=" mx-3">
           <a
             href="#"
@@ -127,8 +96,21 @@ export const Navbar = () => {
           </a>
         </li>
       </ul>
-      <div className="nav__icon w-12 md:w-14 lg:w-20 ml-auto mr-3 order-2">
-        <img src={nis} alt="" />
+
+      <div className="ml-auto flex items-center justify-end">
+        <div className="dropdown">
+          <div onClick={handleClick} className={isDropped2}>
+            <img src={lang} alt="" />
+          </div>
+          <div className={isDropped}>
+            <div className="dropdown__child">Қазақ</div>
+            <div className="dropdown__child">English</div>
+          </div>
+        </div>
+
+        <div className="nav__icon w-12 md:w-14 lg:w-20 mr-3">
+          <img src={nis} alt="" />
+        </div>
       </div>
     </nav>
   );

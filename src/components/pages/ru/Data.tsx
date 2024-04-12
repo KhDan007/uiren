@@ -1,6 +1,6 @@
-import icon1 from "../img/icons/data/1.svg";
-import icon2 from "../img/icons/data/2.svg";
-import icon3 from "../img/icons/data/3.svg";
+import icon1 from "../../../img/icons/data/1.svg";
+import icon2 from "../../../img/icons/data/2.svg";
+import icon3 from "../../../img/icons/data/3.svg";
 
 export const Data = () => {
   return (

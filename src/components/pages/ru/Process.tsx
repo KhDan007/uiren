@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import image1 from "../img/process/example.jpg";
+import image1 from "../../../img/process/example.jpg";
 
 export const Process = () => {
   return (

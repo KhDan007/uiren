@@ -1,7 +1,7 @@
-import image1 from "../img/special/1.png";
-import icon3 from "../img/icons/special/3.svg";
-import icon4 from "../img/icons/special/4.svg";
-import icon5 from "../img/icons/special/5.svg";
+import image1 from "../../../img/special/1.png";
+import icon3 from "../../../img/icons/special/3.svg";
+import icon4 from "../../../img/icons/special/4.svg";
+import icon5 from "../../../img/icons/special/5.svg";
 
 export const Special = () => {
   return (
