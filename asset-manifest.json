@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/uiren/static/css/main.654b7eca.css",
+    "main.js": "/uiren/static/js/main.3b8b5b8d.js",
+    "static/js/453.52acedef.chunk.js": "/uiren/static/js/453.52acedef.chunk.js",
+    "static/media/logic.jpg": "/uiren/static/media/logic.db89e666d754a486845d.jpg",
+    "static/media/arts.png": "/uiren/static/media/arts.4bea8cafbe2f7d9d6337.png",
+    "static/media/eng.png": "/uiren/static/media/eng.09d65c6cc2df002c0e91.png",
+    "static/media/math.png": "/uiren/static/media/math.fbdc98bce4c8d979959e.png",
+    "static/media/kaz lang.png": "/uiren/static/media/kaz lang.03ccba9e43e4ae166981.png",
+    "static/media/1.png": "/uiren/static/media/1.5de6476ca759047fdfa2.png",
+    "static/media/logo.png": "/uiren/static/media/logo.87bfe42876e26daa27d9.png",
+    "static/media/5.svg": "/uiren/static/media/5.fa80488543c7004fcdcecf68891321de.svg",
+    "static/media/9.svg": "/uiren/static/media/9.de70716d2cd0048e70ed95ce7db18459.svg",
+    "static/media/quote.svg": "/uiren/static/media/quote.5db30d6d79e2d63bfa9616f2c25dd45b.svg",
+    "static/media/4.svg": "/uiren/static/media/4.9b9a60482ec44da7ec68a3b358595ecd.svg",
+    "static/media/2.svg": "/uiren/static/media/2.25fa59d72c61112b890df242ca5d43dc.svg",
+    "static/media/7.svg": "/uiren/static/media/7.f1889d79b7c3a0e9b74ef943bdcba5d3.svg",
+    "static/media/1.svg": "/uiren/static/media/1.f9eaedeeea6f80e7b1ffa83e7e5fe2e0.svg",
+    "static/media/8.svg": "/uiren/static/media/8.162d30388765f04e91dc16be7452a279.svg",
+    "static/media/6.svg": "/uiren/static/media/6.0bf5119f2ced96de40645f8efa6d1916.svg",
+    "static/media/3.svg": "/uiren/static/media/3.eb3f11885d8eaabb33ce481e844b58fe.svg",
+    "static/media/orange_quotes.svg": "/uiren/static/media/orange_quotes.9cca250edc84332d9e3e0d54201a04bd.svg",
+    "index.html": "/uiren/index.html",
+    "static/media/Vector 6.svg": "/uiren/static/media/Vector 6.edee137037d05abae21c.svg",
+    "main.654b7eca.css.map": "/uiren/static/css/main.654b7eca.css.map",
+    "main.3b8b5b8d.js.map": "/uiren/static/js/main.3b8b5b8d.js.map",
+    "453.52acedef.chunk.js.map": "/uiren/static/js/453.52acedef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.654b7eca.css",
+    "static/js/main.3b8b5b8d.js"
+  ]
+}
