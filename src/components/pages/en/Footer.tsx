@@ -30,9 +30,9 @@ export const Footer = () => {
           <div className="footer__text pb-10 text-darkBlue text-2xl xl:text-3xl font-bold">
             Instagram:
           </div>
-          <div className="footer__data text-xl xl:text-2xl text-darkBlue">
+          <a target="_blank" href="https://www.instagram.com/uiren.kz/" className="footer__data inline-block text-xl xl:text-2xl text-darkBlue">
             @uiren.kz
-          </div>
+          </a>
         </div>
       </div>
     </footer>

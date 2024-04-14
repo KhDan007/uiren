@@ -1,3 +1,4 @@
+import { Application } from "./Application";
 import { Button } from "./Button";
 import { Data } from "./Data";
 import { FAQ } from "./FAQ";
@@ -23,6 +24,7 @@ export const Ru = () => {
       <Subjects />
       <Process />
       <FAQ />
+      {/* <Application /> */}
       <Reviews />
 
       <Footer />

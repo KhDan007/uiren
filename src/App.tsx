@@ -13,6 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<Ru />} />
         <Route path="/ru" element={<Ru />} />
         <Route path="/kz" element={<Kz />}/>
         <Route path="/en" element={<En />}/>
