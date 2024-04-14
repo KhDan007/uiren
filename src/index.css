@@ -306,17 +306,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .no-drop2 img {
-  width: 40%;
+  width: 70%;
 }
 
 .drop2 img {
-  width: 40%;
-}
-
-.drop2::after {
-  content: "🡱";
-  display: inline-block;
-  padding: 0px 0 0 5px;
+  width: 70%;
 }
 
 .no-drop2 {
@@ -328,12 +322,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: flex;
   align-items: center;
   justify-content: end;
-}
-
-.no-drop2::after {
-  content: "🡳";
-  display: inline-block;
-  padding: 0px 0 0 5px;
 }
 
 .no-drop {
