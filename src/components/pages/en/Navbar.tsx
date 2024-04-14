@@ -5,6 +5,8 @@ import { slide as Menu } from "react-burger-menu";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,72 +29,96 @@ export const Navbar = () => {
 
   return (
     <nav className="z-50 fixed top-0 left-0 w-full p-5 pr-0 bg-white flex justify-between items-center">
-      <div className="text-shadow mx-auto pl-12 md:pl-0 md:ml-0 font-PtSerif text-darkGreen text-4xl lg:text-5xl font-bold italic lg:pr-3">
+      <a href="" className="inline-block text-shadow mx-auto pl-12 md:pl-0 md:ml-0 font-PtSerif text-darkGreen text-4xl lg:text-5xl font-bold italic lg:pr-3">
         Ü<span className="text-orange1">İREN</span>
-      </div>
+      </a>
       <Menu
-        className="block text-shadow lg:hidden font-Preahvihear"
+        className="block text-shadow lg:hidden"
         isOpen={isOpen}
         onStateChange={handleStateChange}
         right // Optional: open menu from the right
         width={"250px"} // Set menu width
       >
-        <a href="">About us</a>
-        <a href="">Courses</a>
-        <a href="">Learning Process</a>
-        <a href="">FAQs</a>
-        <a href="">Reviews</a>
-        <a href="">Contacts</a>
+        <ScrollLink to="intro" smooth={true} duration={50}>
+          About us
+        </ScrollLink>
+        <ScrollLink to="subjects" smooth={true} duration={50}>
+          Courses
+        </ScrollLink>
+        <ScrollLink to="process" smooth={true} duration={50}>
+          Learning Process
+        </ScrollLink>
+        <ScrollLink to="faq " smooth={true} duration={50}>
+          FAQs
+        </ScrollLink>
+        <ScrollLink to="reviews" smooth={true} duration={50}>
+          Reviews
+        </ScrollLink>
+        <ScrollLink to="footer" smooth={true} duration={50}>
+          Contacts
+        </ScrollLink>
       </Menu>
 
       <ul className="mx-auto justify-between hidden text-center text-shadow nav_links text-base lg:text-xl md:flex md:items-center">
         <li className=" mx-3">
-          <a
-            href="#intro"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="intro"
+            smooth={true}
+            duration={50}
           >
             About us
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#subjects"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="subjects"
+            smooth={true}
+            duration={50}
           >
             Courses
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#process"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="process"
+            smooth={true}
+            duration={50}
           >
             Learning Process
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#special"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="faq "
+            smooth={true}
+            duration={50}
           >
             FAQs
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#reviews"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="reviews"
+            smooth={true}
+            duration={50}
           >
             Reviews
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#footer"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="footer"
+            smooth={true}
+            duration={50}
           >
             Contacts
-          </a>
+          </ScrollLink>
         </li>
       </ul>
 

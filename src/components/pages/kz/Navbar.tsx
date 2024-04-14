@@ -5,6 +5,8 @@ import { slide as Menu } from "react-burger-menu";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,9 +29,13 @@ export const Navbar = () => {
 
   return (
     <nav className="z-50 fixed top-0 left-0 w-full p-5 pr-0 bg-white flex justify-between items-center">
-      <div className="text-shadow mx-auto pl-12 md:pl-0 md:ml-0 font-PtSerif text-darkGreen text-4xl lg:text-5xl font-bold italic lg:pr-3">
+      <a
+        href=""
+        className="text-shadow mx-auto pl-12 md:pl-0 md:ml-0 font-PtSerif text-darkGreen text-4xl lg:text-5xl font-bold italic lg:pr-3"
+      >
         Ü<span className="text-orange1">İREN</span>
-      </div>
+      </a>
+      
       <Menu
         className="block text-shadow lg:hidden"
         isOpen={isOpen}
@@ -37,62 +43,86 @@ export const Navbar = () => {
         right // Optional: open menu from the right
         width={"250px"} // Set menu width
       >
-        <a href="">Біз туралы</a>
-        <a href="">Курстар</a>
-        <a href="">Оқыту процессі</a>
-        <a href="">Сұрақтар</a>
-        <a href="">Пікірлер</a>
-        <a href="">Байланысу</a>
+        <ScrollLink to="intro" smooth={true} duration={50}>
+          Біз туралы
+        </ScrollLink>
+        <ScrollLink to="subjects" smooth={true} duration={50}>
+          Курстар
+        </ScrollLink>
+        <ScrollLink to="process" smooth={true} duration={50}>
+          Оқыту процессі
+        </ScrollLink>
+        <ScrollLink to="faq " smooth={true} duration={50}>
+          Сұрақтар
+        </ScrollLink>
+        <ScrollLink to="reviews" smooth={true} duration={50}>
+          Пікірлер
+        </ScrollLink>
+        <ScrollLink to="footer" smooth={true} duration={50}>
+          Байланысу
+        </ScrollLink>
       </Menu>
 
       <ul className="mx-auto justify-between hidden text-center text-shadow nav_links text-base lg:text-xl md:flex md:items-center">
         <li className=" mx-3">
-          <a
-            href="#intro"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="intro"
+            smooth={true}
+            duration={50}
           >
             Біз туралы
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#subjects"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="subjects"
+            smooth={true}
+            duration={50}
           >
             Курстар
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#process"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="process"
+            smooth={true}
+            duration={50}
           >
             Оқыту процессі
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#special"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="faq "
+            smooth={true}
+            duration={50}
           >
             Сұрақтар
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#reviews"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="reviews"
+            smooth={true}
+            duration={50}
           >
             Пікірлер
-          </a>
+          </ScrollLink>
         </li>
         <li className=" mx-3">
-          <a
-            href="#footer"
+          <ScrollLink
             className="inline-block cursor-pointer hover:text-blue-600 transition font-Preahvihear"
+            to="footer"
+            smooth={true}
+            duration={50}
           >
             Байланысу
-          </a>
+          </ScrollLink>
         </li>
       </ul>
 
