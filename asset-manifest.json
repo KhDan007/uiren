@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uiren/static/css/main.0cebcc7a.css",
-    "main.js": "/uiren/static/js/main.a073a3c8.js",
+    "main.css": "/uiren/static/css/main.543d69e9.css",
+    "main.js": "/uiren/static/js/main.af94b166.js",
     "static/js/453.c2658337.chunk.js": "/uiren/static/js/453.c2658337.chunk.js",
     "static/media/logic.jpg": "/uiren/static/media/logic.db89e666d754a486845d.jpg",
     "static/media/arts.png": "/uiren/static/media/arts.4bea8cafbe2f7d9d6337.png",
@@ -23,12 +23,12 @@
     "static/media/orange_quotes.svg": "/uiren/static/media/orange_quotes.fd9531346f3162127ced68b007ce505e.svg",
     "index.html": "/uiren/index.html",
     "static/media/Vector 6.svg": "/uiren/static/media/Vector 6.54c05a9bcc63eda8786b.svg",
-    "main.0cebcc7a.css.map": "/uiren/static/css/main.0cebcc7a.css.map",
-    "main.a073a3c8.js.map": "/uiren/static/js/main.a073a3c8.js.map",
+    "main.543d69e9.css.map": "/uiren/static/css/main.543d69e9.css.map",
+    "main.af94b166.js.map": "/uiren/static/js/main.af94b166.js.map",
     "453.c2658337.chunk.js.map": "/uiren/static/js/453.c2658337.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cebcc7a.css",
-    "static/js/main.a073a3c8.js"
+    "static/css/main.543d69e9.css",
+    "static/js/main.af94b166.js"
   ]
 }
