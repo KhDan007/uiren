@@ -13,8 +13,8 @@ export const Data = () => {
             </div>
           </div>
           <div className="data__column">
-            <div className="data__number text-3xl font-PublicSans">7+</div>
-            <div className="data__text text-xl font-PublicSans">Волонтеры</div>
+            <div className="data__number text-3xl font-PublicSans">100+</div>
+            <div className="data__text text-xl font-PublicSans">Волонтеров</div>
           </div>
         </div>
         <div className="data__elem flex items-center mb-3 md:m-0">
@@ -24,8 +24,8 @@ export const Data = () => {
             </div>
           </div>
           <div className="data__column">
-            <div className="data__number text-3xl font-PublicSans">7+</div>
-            <div className="data__text text-xl font-PublicSans">Ученики</div>
+            <div className="data__number text-3xl font-PublicSans">"100+"+</div>
+            <div className="data__text text-xl font-PublicSans">Учеников</div>
           </div>
         </div>
         <div className="data__elem flex items-center">
@@ -35,9 +35,9 @@ export const Data = () => {
             </div>
           </div>
           <div className="data__column">
-            <div className="data__number text-3xl font-PublicSans">3</div>
+            <div className="data__number text-3xl font-PublicSans">9</div>
             <div className="data__text text-xl font-PublicSans">
-              Предмета обучения
+              Предметов обучения
             </div>
           </div>
         </div>
