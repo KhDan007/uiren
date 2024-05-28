@@ -6,10 +6,10 @@ export const Application = () => {
       </h2>
       <div className="flex justify-center">
         <button className="button-64 application__student" role="button">
-          <a href="" className="text">Ученик</a>
+          <a href="https://docs.google.com/forms/d/1nOXPkkemXU3hsZ8svEwj--GM_uxQDmKuqDaVnVdkeww/edit" className="text">Ученик</a>
         </button>
         <button className="button-64 application__volunteer" role="button">
-          <a href="" className="text">Волонтер</a>
+          <a href="https://docs.google.com/forms/d/1Qpm5JCqtGffLqoIqEjMUe7pcCJ0sSoBcUpONnjN-2Cc/edit" className="text">Волонтер</a>
         </button>
       </div>
     </section>
